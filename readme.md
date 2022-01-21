@@ -14,14 +14,25 @@ de (NxN) con la secuencia del ADN. Las letras de los Strings solo pueden ser: (A
 cuales representa cada base nitrogenada del ADN.
 
 
-| A | T | G | C | G | A |   | A | T | G | C | G | A |
-| C | A | G | T | G | C |   | C | A | G | T | G | C |
-| T | T | A | T | T | T |   | T | T | A | T | G | T |
-| A | G | A | C | G | G |   | A | G | A | A | G | G |
-| G | C | G | T | C | A |   | C | C | C | C | T | A |
-| T | C | A | C | T | G |   | T | C | A | C | T | G |
+| A | T | G | C | G | A |
+| - | - | - | - | - | - |
+| C | A | G | T | G | C |
+| T | T | A | T | T | T |
+| A | G | A | C | G | G |
+| G | C | G | T | C | A |
+| T | C | A | C | T | G |
 
-        No-mutante                  Mutante
+No-mutante
+
+| **A** | T | G | C | **G** | A |
+| - | - | - | - | - | - |
+| C | **A** | G | T | **G** | C |
+| T | T | **A** | T | **G** | T |
+| A | G | A | **A** | **G** | G |
+| **C** | **C** | **C** | **C** | T | A |
+| T | C | A | C | T | G |
+
+Mutante
 
 Sabrás si un humano es mutante, si encuentras más de una secuencia de cuatro letras
 iguales​, de forma oblicua, horizontal o vertical.
